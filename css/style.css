@@ -1,0 +1,32 @@
+#countries {
+    float: left;
+    width: 15%;
+}
+
+#country {
+    float: right;
+    width: 85%;
+    height: 500px;
+    background-color:yellow;
+}
+
+#main {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.country_image {
+    width: 30%;
+    float: left;
+}
+
+.country_info {
+    width: 70%;
+    float: right;
+}
+
+
+body {
+    text-align: center;
+}
