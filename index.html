@@ -1,0 +1,19 @@
+ <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Geoinfo</title>
+        <link rel="icon" href="images/logo.png"/>
+        <link rel=stylesheet href = "css/style.css">
+        <script src="js/index.js" type="text/javascript"></script>
+    </head>
+    <body onload="getCountries()">
+        <h1>Geoinfo</h1>
+        <h3>Geoguessr/geotastic metas</h3>
+        <button onclick="getCountries(order='ascending')">Ascending Order</button>
+        <button onclick="getCountries(order='descending')">Descending Order</button> <br> <br>
+        <div id="main">
+            <div id="countries"></div>
+            <div id="country"></div>
+        </div>
+    </body>
+</html>
